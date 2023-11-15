@@ -8,11 +8,11 @@ const containerStyle = {
 };
 
 const center = {
-    lat: 34.7293466708865,
-    lng: 135.49939605607292,
+    lat: 35.62773,
+    lng: 139.72291,
 };
 
-const zoom = 17;
+const zoom = 18;
 
 const Map = () => {
     return (
