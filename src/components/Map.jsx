@@ -12,7 +12,7 @@ const center = {
     lng: 135.49939605607292,
 };
 
-const zoom = 10;
+const zoom = 17;
 
 const Map = () => {
     return (
