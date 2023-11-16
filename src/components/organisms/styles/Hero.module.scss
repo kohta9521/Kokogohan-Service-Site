@@ -49,6 +49,15 @@
         color: var(--main-red-color);
       }
     }
+    .circle:hover {
+        background-color: var(--main-red-color);
+        border: 0.1px solid var(--main-white-color);
+        transition: all 0.3s ease-in-out;
+        .arrow:hover {
+          color: var(--main-white-color);
+          transition: all 0.3s ease-in-out;
+        }
+    }
     // underBox
     .underBox {
       width: 100%;
