@@ -23,16 +23,16 @@
 }
 
 .red {
-  color: white;
-  background-color: red;
+  color: var(--main-white-color);
+  background-color: var(--main-red-color);
 }
 .white {
-  background-color: white;
-  color: black;
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
 }
 .black {
-  background-color: black;
-  color: white;
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
 }
 
 @media screen and (max-width: 1280px) {

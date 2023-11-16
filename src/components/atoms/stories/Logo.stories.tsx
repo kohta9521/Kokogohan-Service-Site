@@ -13,25 +13,25 @@ export default meta;
 type Logo = StoryObj<typeof Logo>;
 
 export const Small: Logo = {
-    args: {
-        id: 1,
-        link: "/",
-        size: "small",
-    },
+  args: {
+    id: 1,
+    link: "/",
+    size: "small",
+  },
 };
 
 export const Medium: Logo = {
-    args: {
-        id: 1,
-        link: "/",
-        size: "medium",
-    },
+  args: {
+    id: 1,
+    link: "/",
+    size: "medium",
+  },
 };
 
 export const Large: Logo = {
-    args: {
-        id: 1,
-        link: "/",
-        size: "large",
-    },
+  args: {
+    id: 1,
+    link: "/",
+    size: "large",
+  },
 };
