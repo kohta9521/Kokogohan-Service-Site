@@ -19,3 +19,19 @@ export const Small: Logo = {
     size: "small",
   },
 };
+
+export const Medium: Logo = {
+  args: {
+    id: 1,
+    link: "/",
+    size: "medium",
+  },
+};
+
+export const Large: Logo = {
+  args: {
+    id: 1,
+    link: "/",
+    size: "large",
+  },
+};
