@@ -5,6 +5,7 @@ import styles from './styles/Header.module.scss'
 
 // components import
 import Logo from '../atoms/Logo'
+import ListBox from '../molecules/ListBox'
 
 const Header = () => {
     return (
@@ -16,6 +17,9 @@ const Header = () => {
                         link="/"
                         size="large"
                     />
+                </div>
+                <div className={styles.menu}>
+                    <ListBox />
                 </div>
             </div>
         </div>
