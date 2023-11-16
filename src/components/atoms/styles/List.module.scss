@@ -1,14 +1,76 @@
 .list {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    opacity: 0.7;
+  }
+}
 
+// props
+.small {
+  font-size: 13px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+.medium {
+  font-size: 17px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+.large {
+  font-size: 20px;
+  padding: 15px 35px;
+  box-sizing: border-box;
+}
+
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
 }
 
 @media screen and (max-width: 1280px) {
-    .list {
-
-    }
+  .list {
+  }
+  // props
+  .small {
+    font-size: 13px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+  }
+  .medium {
+    font-size: 17px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  .large {
+    font-size: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 768px) {
-    .list {
-
-    }
+  .list {
+  }
+  // props
+  .small {
+    font-size: 13px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+  }
+  .medium {
+    font-size: 17px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  .large {
+    font-size: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+  }
 }

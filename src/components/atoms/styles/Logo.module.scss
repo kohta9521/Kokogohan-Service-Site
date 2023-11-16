@@ -1,19 +1,19 @@
 .link {
-    width: 180px;
-    height: 60px;
-    .logo {
-        height: 100%;
-        object-fit: contain;
-    }
+  width: 180px;
+  height: 60px;
+  .logo {
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 // props
 .small {
-    width: 100px;
+  width: 100px;
 }
 .medium {
-    width: 200px;
+  width: 200px;
 }
 .large {
-    width: 300px;
+  width: 300px;
 }

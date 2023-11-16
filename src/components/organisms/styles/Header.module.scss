@@ -1,24 +1,24 @@
-.hedaer {
-    width: 100%;
-    height: 80px;
-    background-color: #fff;
-    .container {
-
-    }
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-    .hedaer {
-        .container {
-    
-        }
+  .hedaer {
+    .container {
     }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .hedaer {
-        .container {
-    
-        }
+  .hedaer {
+    .container {
     }
+  }
 }

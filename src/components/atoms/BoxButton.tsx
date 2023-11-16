@@ -1,28 +1,34 @@
-import React from 'react'
+import React from "react";
 
 // scss import
-import styles from './styles/BoxButton.module.scss'
-import Link from 'next/link'
+import styles from "./styles/BoxButton.module.scss";
+import Link from "next/link";
 
 // type
 export type BoxButtonProps = {
-    id: number
-    text: string
-    size?: 'small' | 'medium' | 'large'
-    color?: 'primary' | 'secondary' | 'tertiary'
-    link: string
-}
-
+  id: number;
+  text: string;
+  size?: "small" | "medium" | "large";
+  color?: "red" | "white" | "black";
+  link: string;
+};
 
 const BoxButton = ({
-    id,
-    text,
-    size = 'medium',
-    color = 'primary',
-    link
-}: BoxButtonProps ) => {
-    return (
-        <Link>
-        </Link>
-    )
-}
+  id,
+  text,
+  size = "medium",
+  color = "red",
+  link,
+}: BoxButtonProps) => {
+  return (
+    <Link
+      className={`${styles.boxButton} ${styles[size]} ${styles[color]}`}
+      href={link}
+      key={id}
+    >
+      {text}
+    </Link>
+  );
+};
+
+export default BoxButton;
