@@ -1,0 +1,46 @@
+.boxButton {
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+// props
+.small {
+  font-size: 13px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.medium {
+  font-size: 17px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+}
+.large {
+  font-size: 20px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+}
+
+.red {
+  color: white;
+  background-color: red;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .boxButton {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxButton {
+  }
+}
