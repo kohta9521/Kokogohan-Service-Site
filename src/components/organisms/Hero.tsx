@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 // scss import
 import styles from "./styles/Hero.module.scss";
@@ -20,9 +21,9 @@ const Hero = () => {
         <p className={styles.subTitle}>
           自分達で作り上げていくご飯やさんマップ
         </p>
-        <div className={styles.circle}>
+        <Link href={'#about'} className={styles.circle}>
           <p className={styles.arrow}>↓</p>
-        </div>
+        </Link>
         <div className={styles.underBox}></div>
       </div>
     </div>

@@ -17,3 +17,43 @@
 .large {
   width: 300px;
 }
+
+@media screen and (max-width: 1280px) {
+  .link {
+    width: 140px;
+    height: 50px;
+    .logo {
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  // props
+  .small {
+    width: 80px;
+  }
+  .medium {
+    width: 150px;
+  }
+  .large {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .link {
+    width: 120px;
+    height: 40px;
+    .logo {
+      height: 100%;
+    }
+  }
+  // props
+  .small {
+    width: 70px;
+  }
+  .medium {
+    width: 130px;
+  }
+  .large {
+    width: 180px;
+  }
+}

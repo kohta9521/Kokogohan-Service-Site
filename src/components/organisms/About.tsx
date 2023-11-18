@@ -1,21 +1,23 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 // scss import
 import styles from './styles/About.module.scss'
 
 // components import
 import MoreButton from '../atoms/MoreButton'
-import Image from 'next/image'
+
 
 const About = () => {
     return (
         <div className={styles.about}>
-            <div className={styles.container}>
+            <div className={styles.container} id='about'>
                 <div className={styles.box}>
                     <div className={styles.leftBox}>
                         <p className={styles.subTitle}>ここごはんについて</p>
                         <h1 className={styles.title}>ABOUT</h1>
-                        <p className={styles.mainText}>
+                        <p className={styles.text}>
                             これまでの地図は情報がすでにあるのが当たり前。<br />
                             このサービスでは自分たちの会社・団体で地図を１から作り上げます。<br />
                             <br />
@@ -24,22 +26,20 @@ const About = () => {
                             <br />
                             あなたも地図を作るメンバーになりませんか？<br />
                         </p>
-                        <MoreButton
-                            id={1}
-                            text='View More'
-                            link='/about'
-                            size='medium'
-                            color='white'
-                        />
+                        <Link
+                            className={styles.link}
+                            href='/about'
+                        >
+                            VIEW MORE
+                        </Link>
                     </div>
                     <div className={styles.rightBox}>
                         <Image
                             className={styles.image}
-                            width={1100}
-                            height={900}
-                            quality={100}
-                            src={'/assets/images/tech.png'}
-                            alt='phoneImage'
+                            src={"/assets/images/phone.png"}
+                            width={600}
+                            height={600}
+                            alt='serviceImg'
                         />
                     </div>
                 </div>
