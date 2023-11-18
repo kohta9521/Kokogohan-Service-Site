@@ -4,6 +4,7 @@
   box-sizing: border-box;
   .container {
     width: 95%;
+    max-width: 1400px;
     margin: 0 auto;
     height: 100%;
     .title {
@@ -13,8 +14,10 @@
       padding: 130px 0 20px 0;
       box-sizing: border-box;
       font-size: 100px;
+      font-weight: 900;
       line-height: 110px;
       color: var(--main-black-color);
+      font-family: 'Roboto', sans-serif;
       .redText {
         color: var(--main-red-color);
       }
@@ -29,6 +32,7 @@
       font-size: 30px;
       line-height: 35px;
       font-weight: bold;
+      font-family: 'Noto Sans JP', sans-serif;
     }
     // circle
     .circle {
@@ -58,13 +62,144 @@
           transition: all 0.3s ease-in-out;
         }
     }
-    // underBox
-    // .underBox {
-    //   width: 100%;
-    //   height: 2000px;
-    //   margin: 0 auto;
-    //   border-radius: 30px;
-    //   background-color: var(--main-red-color);
-    // }
   }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .hero {
+    width: 100%;
+    padding: 0 0 100px 0;
+    box-sizing: border-box;
+    .container {
+      width: 95%;
+      max-width: 1400px;
+      margin: 0 auto;
+      height: 100%;
+      .title {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 130px 0 20px 0;
+        box-sizing: border-box;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 110px;
+        color: var(--main-black-color);
+        font-family: 'Roboto', sans-serif;
+        .redText {
+          color: var(--main-red-color);
+        }
+      }
+      .subTitle {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+        box-sizing: border-box;
+        display: block;
+        color: var(--main-black-color);
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: bold;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+      // circle
+      .circle {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 560px;
+        right: 100px;
+        border-radius: 150px;
+        text-align: center;
+        border: 0.1px solid var(--main-black-color);
+        background-color: var(--main-white-color);
+        .arrow {
+          margin: 0;
+          padding: 0;
+          line-height: 150px;
+          font-size: 79px;
+          color: var(--main-red-color);
+        }
+      }
+      .circle:hover {
+          background-color: var(--main-red-color);
+          border: 0.1px solid var(--main--color);
+          transition: all 0.3s ease-in-out;
+          .arrow:hover {
+            color: var(--main-white-color);
+            transition: all 0.3s ease-in-out;
+          }
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 100%;
+    padding: 0 0 100px 0;
+    box-sizing: border-box;
+    .container {
+      width: 90%;
+      max-width: 1400px;
+      margin: 0 auto;
+      height: 100%;
+      .title {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px 0 20px 0;
+        box-sizing: border-box;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60px;
+        color: var(--main-black-color);
+        font-family: 'Roboto', sans-serif;
+        .redText {
+          color: var(--main-red-color);
+        }
+      }
+      .subTitle {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+        box-sizing: border-box;
+        display: block;
+        color: var(--main-black-color);
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: bold;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+      // circle
+      .circle {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 445px;
+        right: 40px;
+        border-radius: 150px;
+        text-align: center;
+        border: 0.1px solid var(--main-black-color);
+        background-color: var(--main-white-color);
+        .arrow {
+          line-height: 70px;
+          font-size: 40px;
+          color: var(--main-red-color);
+        }
+      }
+      .circle:hover {
+          background-color: var(--main-red-color);
+          border: 0.1px solid var(--main--color);
+          transition: all 0.3s ease-in-out;
+          .arrow:hover {
+            color: var(--main-white-color);
+            transition: all 0.3s ease-in-out;
+          }
+      }
+    }
+  }
+  
 }
