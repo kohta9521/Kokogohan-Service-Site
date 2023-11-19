@@ -7,17 +7,15 @@
     background-color: var(--main-red-color);
     z-index: -1;
     .container {
-        width: 80%;
+        width: 70%;
         max-width: 1900px;
         height: 100%;
         margin: 0 auto;
-        border: 1px solid white;
         .box {
             position: absolute;
             top: 500px;
-            width: 80%;
+            width: 70%;
             box-sizing: border-box;
-            border: 1px solid white;
             .flexBox {
                 width: 100%;
                 display: flex;
@@ -62,7 +60,6 @@
                     }
                 }
                 .rightBox {
-                    border: 1px solid white;
                     width: 50%;
                     .image {
                         height: 100%;
@@ -87,13 +84,11 @@
             max-width: 1900px;
             height: 100%;
             margin: 0 auto;
-            border: 1px solid white;
             .box {
                 position: absolute;
                 top: 500px;
                 width: 90%;
                 box-sizing: border-box;
-                border: 1px solid white;
                 .flexBox {
                     width: 100%;
                     display: block;
@@ -138,7 +133,6 @@
                         }
                     }
                     .rightBox {
-                        border: 1px solid white;
                         width: 100%;
                         .image {
                             width: 100%;
