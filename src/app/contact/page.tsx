@@ -5,6 +5,7 @@ import React from 'react'
 import styles from './Contact.module.scss'
 import SubPageHero from '@/components/templates/SubPageHero'
 import MainLayout from '@/components/templates/MainLayout'
+import SubPagePureLayout from '@/components/templates/SubPagePureLayout'
 
 
 // components import
@@ -15,7 +16,7 @@ const Contact = () => {
     return(
         <div className={styles.about}>
             {/* TODO: pureLayoutとかのコンポーネントを作る　contactの中にcontactは変 */}
-            <MainLayout
+            <SubPagePureLayout
                 id={6}
             >
                 <SubPageHero
@@ -27,7 +28,7 @@ const Contact = () => {
                 >
                     <h1>this space is contact children space</h1>
                 </SubPageHero>
-            </MainLayout>
+            </SubPagePureLayout>
         </div>
     )
 }
