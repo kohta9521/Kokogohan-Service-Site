@@ -1,0 +1,34 @@
+.formBox {
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+    border: 1px solid gray;
+    .flexButton {
+        display: flex;
+        align-items: center;
+        .personalButton {
+            background-color: rgb(255, 255, 255);
+            color: red;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            &.active {
+                // active時のスタイル
+                background-color: red;
+                color: white;
+            }
+        }
+        .companyButton {
+            background-color: rgb(255, 255, 255);
+            color: red;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            &.active {
+                // active時のスタイル
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+}
