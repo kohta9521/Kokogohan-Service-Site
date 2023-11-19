@@ -3,12 +3,13 @@ import React from 'react'
 
 // scss import
 import styles from './Map.module.scss'
+
+// components import
 import SubPageHero from '@/components/templates/SubPageHero'
 import MainLayout from '@/components/templates/MainLayout'
 
-
-// components import
-
+// sample
+import Maps from '../../components/Map.jsx'
 
 
 const Map = () => {
@@ -24,8 +25,8 @@ const Map = () => {
                     subTitle='このサービスのメインとも言えるマップ機能。このページでは皆さんが作り上げていくマップについてより詳しくご覧いただけます。'
                     pageName='MAP'
                 >
-                    <h1>this space is map children space</h1>
                 </SubPageHero>
+                <Maps />
             </MainLayout>
 
         </div>

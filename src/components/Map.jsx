@@ -14,7 +14,7 @@ const center = {
 
 const zoom = 18;
 
-const Map = () => {
+const Maps = () => {
   return (
     <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
       <GoogleMap
@@ -26,4 +26,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default Maps;
