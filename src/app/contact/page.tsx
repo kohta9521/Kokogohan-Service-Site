@@ -4,6 +4,7 @@ import React from 'react'
 // scss import
 import styles from './Contact.module.scss'
 import SubPageHero from '@/components/templates/SubPageHero'
+import MainLayout from '@/components/templates/MainLayout'
 
 
 // components import
@@ -13,15 +14,20 @@ import SubPageHero from '@/components/templates/SubPageHero'
 const Contact = () => {
     return(
         <div className={styles.about}>
-            <SubPageHero
-                id={1}
-                backgroundImg='/'
-                title='お問い合わせ'
-                subTitle='このサービスについてお問い合わせいただけます。'
-                pageName='CONTACT'
+            {/* TODO: pureLayoutとかのコンポーネントを作る　contactの中にcontactは変 */}
+            <MainLayout
+                id={6}
             >
-                <h1>this space is contact children space</h1>
-            </SubPageHero>
+                <SubPageHero
+                    id={1}
+                    backgroundImg='/'
+                    title='お問い合わせ'
+                    subTitle='このサービスについてお問い合わせいただけます。'
+                    pageName='CONTACT'
+                >
+                    <h1>this space is contact children space</h1>
+                </SubPageHero>
+            </MainLayout>
         </div>
     )
 }
