@@ -26,8 +26,15 @@ const ListBox = () => {
         size="medium"
         color="black"
       />
+      <List
+        id={5}
+        text="メンバー"
+        link="/member"
+        size="medium"
+        color="black"
+      />
       <BoxButton
-        id={1}
+        id={6}
         text="ログイン"
         size="medium"
         color="red"

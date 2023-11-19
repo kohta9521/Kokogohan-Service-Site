@@ -5,7 +5,6 @@ import Image from 'next/image'
 import styles from './styles/SubPageHero.module.scss'
 
 // components import
-import Header from '../organisms/Header'
 import Link from 'next/link'
 
 
@@ -26,11 +25,9 @@ const SubPageHero = ({
     title,
     subTitle,
     pageName,
-    children
 }: SubPageHeroProps ) => {
     return (
         <>
-        <Header />
             <div className={styles.hero} key={id}>
                 <div className={styles.titleBox}>
                     {/* TODO: HERO内に画像を背景画像として差し込みたかった */}
@@ -57,7 +54,6 @@ const SubPageHero = ({
                         {pageName}
                     </p>
                 </div>
-                {children}
             </div>
         </>
 

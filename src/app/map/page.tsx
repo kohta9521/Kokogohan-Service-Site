@@ -4,6 +4,7 @@ import React from 'react'
 // scss import
 import styles from './Map.module.scss'
 import SubPageHero from '@/components/templates/SubPageHero'
+import MainLayout from '@/components/templates/MainLayout'
 
 
 // components import
@@ -12,16 +13,21 @@ import SubPageHero from '@/components/templates/SubPageHero'
 
 const Map = () => {
     return(
-        <div className={styles.about}>
-            <SubPageHero
-                id={2}
-                backgroundImg='/'
-                title='マップ'
-                subTitle='このサービスのメインとも言えるマップ機能。このページでは皆さんが作り上げていくマップについてより詳しくご覧いただけます。'
-                pageName='MAP'
+        <div className={styles.map}>
+            <MainLayout
+                id={3}
             >
-                <h1>this space is map children space</h1>
-            </SubPageHero>
+                <SubPageHero
+                    id={2}
+                    backgroundImg='/'
+                    title='マップ'
+                    subTitle='このサービスのメインとも言えるマップ機能。このページでは皆さんが作り上げていくマップについてより詳しくご覧いただけます。'
+                    pageName='MAP'
+                >
+                    <h1>this space is map children space</h1>
+                </SubPageHero>
+            </MainLayout>
+
         </div>
     )
 }
