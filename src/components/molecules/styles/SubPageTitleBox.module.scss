@@ -1,0 +1,27 @@
+.titleBox {
+    margin-bottom: 30px;
+    .enTitle {
+        font-size: 16px;
+        color: var(--main-red-color);
+    }
+    .jaTitle {
+        font-size: 26px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+.titleBox {
+    margin-bottom: 30px;
+    .enTitle {
+        font-size: 16px;
+        color: var(--main-red-color);
+    }
+    .jaTitle {
+        font-size: 26px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+}
+}
