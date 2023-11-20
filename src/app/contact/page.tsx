@@ -85,6 +85,7 @@ const Contact = () => {
                             <h1>個人のお客様用お問い合わせフォーム</h1>
                             <form
                                 className={styles.form}
+                                action="https://docs.google.com/forms/d/e/1FAIpQLSeiTWm4EKK5esqpYw_rGQemcp8UX-a0LSDFz8V9vsBB6CHMfA/viewform?usp=sf_link"
                                 method="post"
                                 onSubmit={(event) => {
                                 void handleSubmit(handleOnSubmit)(event)
@@ -98,6 +99,7 @@ const Contact = () => {
                                     {...register('email')}
                                     className={styles.textInput}
                                     placeholder="例）mail@example.com"
+                                    name="entry.1011188443"
                                 />
                                 {formatError.email && (
                                     <div className={styles.errorMessage}>
@@ -114,6 +116,7 @@ const Contact = () => {
                                     {...register('name')}
                                     className={styles.textInput}
                                     placeholder="例）山田太郎"
+                                    name='entry.1520862316'
                                 />
                                 {formatError.name && (
                                     <div className={styles.errorMessage}>
@@ -130,6 +133,7 @@ const Contact = () => {
                                     {...register('kana')}
                                     className={styles.textInput}
                                     placeholder="例）ヤマダタロウ"
+                                    name='entry.48359775'
                                 />
                                 {formatError.kana && (
                                     <div className={styles.errorMessage}>
@@ -146,6 +150,7 @@ const Contact = () => {
                                     {...register('telephone')}
                                     className={styles.textInput}
                                     placeholder="例）09012345678"
+                                    name='entry.1713269236'
                                 />
                                 {formatError.telephone && (
                                     <div className={styles.errorMessage}>
@@ -162,6 +167,7 @@ const Contact = () => {
                                     {...register('title')}
                                     className={styles.textInput}
                                     placeholder="例）お問い合わせ"
+                                    name='entry.1265409169'
                                 />
                                 {formatError.title && (
                                     <div className={styles.errorMessage}>
@@ -177,6 +183,7 @@ const Contact = () => {
                                     {...register('message')}
                                     className={styles.textarea}
                                     placeholder="例）お問い合わせ内容"
+                                    name='entry.1945242439'
                                 />
                                 {formatError.message && (
                                     <div className={styles.errorMessage}>

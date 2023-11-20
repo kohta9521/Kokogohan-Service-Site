@@ -6,7 +6,7 @@ import Link from 'next/link'
 import styles from './styles/About.module.scss'
 
 // components import
-import MoreButton from '../atoms/MoreButton'
+// import MoreButton from '../atoms/MoreButton'
 
 
 const About = () => {
@@ -34,9 +34,9 @@ const About = () => {
                         <div className={styles.rightBox}>
                             <Image
                                 className={styles.image}
-                                src={"/assets/images/tech.png"}
-                                width={700}
-                                height={500}
+                                src={"/assets/images/mac.png"}
+                                width={1500}
+                                height={650}
                                 alt='aboutImage'
                             />
                         </div>
