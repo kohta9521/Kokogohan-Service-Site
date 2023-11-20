@@ -9,16 +9,19 @@ import ListBox from "../molecules/ListBox";
 
 const Header = () => {
   return (
-    <div className={styles.header}>
-      <div className={styles.container}>
-        <div className={styles.logo}>
-          <Logo id={1} link="/" size="large" />
-        </div>
-        <div className={styles.menu}>
-          <ListBox />
+    <>
+    <div className={styles.dummy}></div>
+      <div className={styles.header}>
+        <div className={styles.container}>
+          <div className={styles.logo}>
+            <Logo id={1} link="/" size="large" />
+          </div>
+          <div className={styles.menu}>
+            <ListBox />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
