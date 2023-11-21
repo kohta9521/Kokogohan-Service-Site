@@ -29,7 +29,16 @@ const About = () => {
                                 <br />
                                 あなたも地図を作るメンバーになりませんか？<br />
                             </p>
-                            {/* TODO: 詳しくみるボタンの追加 */}
+                            <Link
+                            className={styles.link}
+                            href='/about'
+                            >
+                            <span className={styles.arrow}>
+                                {/* <MdKeyboardArrowRight className={styles.icon} /> */}
+                                →
+                            </span>
+                            詳しく見る
+                        </Link>
                         </div>
                         <div className={styles.rightBox}>
                             <Image
