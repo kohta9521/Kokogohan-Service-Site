@@ -19,36 +19,52 @@ const News = () => {
                 <div className={styles.newsBox}>
                     <ul>
                         <li>
-                            <p className={styles.data}>2022.11.2</p>
-                            <p className={styles.tag}>お知らせ</p>
-                            <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
-                            <Link href={"/"} className={styles.arrow}>
-                                <FaArrowRightLong />
-                            </Link>
+                            <div className={styles.newsFlexBox}>
+                                <p className={styles.data}>2022.11.2</p>
+                                <p className={styles.tag}>お知らせ</p>
+                            </div>
+                            <div className={styles.newsFlexBox}>
+                                <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
+                                <Link href={"/"} className={styles.arrow}>
+                                    <FaArrowRightLong />
+                                </Link>
+                            </div>
                         </li>
                         <li>
-                            <p className={styles.data}>2022.11.2</p>
-                            <p className={styles.tag}>お知らせ</p>
-                            <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
-                            <Link href={"/"} className={styles.arrow}>
-                                <FaArrowRightLong />
-                            </Link>
+                            <div className={styles.newsFlexBox}>
+                                <p className={styles.data}>2022.11.2</p>
+                                <p className={styles.tag}>お知らせ</p>
+                            </div>
+                            <div className={styles.newsFlexBox}>
+                                <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
+                                <Link href={"/"} className={styles.arrow}>
+                                    <FaArrowRightLong />
+                                </Link>
+                            </div>
                         </li>
                         <li>
-                            <p className={styles.data}>2022.11.2</p>
-                            <p className={styles.tag}>お知らせ</p>
-                            <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
-                            <Link href={"/"} className={styles.arrow}>
-                                <FaArrowRightLong />
-                            </Link>
+                            <div className={styles.newsFlexBox}>
+                                <p className={styles.data}>2022.11.2</p>
+                                <p className={styles.tag}>お知らせ</p>
+                            </div>
+                            <div className={styles.newsFlexBox}>
+                                <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
+                                <Link href={"/"} className={styles.arrow}>
+                                    <FaArrowRightLong />
+                                </Link>
+                            </div>
                         </li>
                         <li>
-                            <p className={styles.data}>2022.11.2</p>
-                            <p className={styles.tag}>お知らせ</p>
-                            <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
-                            <Link href={"/"} className={styles.arrow}>
-                                <FaArrowRightLong />
-                            </Link>
+                            <div className={styles.newsFlexBox}>
+                                <p className={styles.data}>2022.11.2</p>
+                                <p className={styles.tag}>お知らせ</p>
+                            </div>
+                            <div className={styles.newsFlexBox}>
+                                <h3 className={styles.newsTitle}>サービスの初回リリースが行われました!</h3>
+                                <Link href={"/"} className={styles.arrow}>
+                                    <FaArrowRightLong />
+                                </Link>
+                            </div>
                         </li>
                         <Link className={styles.moreButton} href={"/pressrelease"}>もっと詳しく見る</Link>
                     </ul>
