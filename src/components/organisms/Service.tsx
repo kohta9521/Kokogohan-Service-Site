@@ -9,6 +9,10 @@ import styles from './styles/Service.module.scss'
 // components import
 import SectionTitle from '../atoms/SectionTitle'
 
+// react icons import
+import { MdKeyboardArrowRight } from "react-icons/md";
+
+
 const Service = () => {
     return (
         <div className={styles.service}>
@@ -36,7 +40,7 @@ const Service = () => {
                     <div className={styles.rightBox}>
                         <p className={styles.subTitle}>個性溢れる地図？</p>
                         <h1 className={styles.title}>MAP</h1>
-                        <p className={styles.maintext}>
+                        <p className={styles.mainText}>
                             会社やコミュニティだけのクローズドな地図をお作りいただけます。<br />
                             <br />
                             地図には各店舗の特徴や地図を作る仲間が投稿したレビューを掲載。<br />
@@ -49,7 +53,11 @@ const Service = () => {
                             className={styles.link}
                             href='/map'
                         >
-                            VIEW MORE
+                            <span className={styles.arrow}>
+                                {/* <MdKeyboardArrowRight className={styles.icon} /> */}
+                                →
+                            </span>
+                            詳しく見る
                         </Link>
                     </div>
                 </div>
