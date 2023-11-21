@@ -28,7 +28,7 @@ const Ranking = () => {
                     <div className={styles.box}>
                         <div className={styles.image}>
                         </div>
-                        <p className={styles.boxTitle}>会社ないでグルメ大使に？</p>
+                        <p className={styles.boxTitle}>会社内でグルメ大使に？</p>
                     </div>
                     <div className={styles.box}>
                         <div className={styles.image}>
