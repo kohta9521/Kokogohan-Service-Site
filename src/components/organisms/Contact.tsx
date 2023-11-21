@@ -20,7 +20,8 @@ const Contact = () => {
                     <h1 className={styles.enTitle}>CONTACT</h1>
                 </div>
                 <p className={styles.mainText}>
-                    以下のボタンよりお問い合わせフォームの入力をお願いします。
+                    以下のボタンよりお問い合わせフォームの入力をお願いします。<br />
+                    また入力フォームは個人の方・法人の方で分かれていますのでご確認お願いします。
                 </p>
                 <Link
                     className={styles.contactButton}

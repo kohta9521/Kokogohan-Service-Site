@@ -3,5 +3,37 @@
     height: 400px;
     background-color: var(--main-gray-color);
     .container {
+        .topBox {
+            .directLinkBox {
+                .title {
+
+                }
+                .text {
+
+                }
+            }
+        }
+        .centerBox {
+            .leftBox {
+
+            }
+            .rightBox {
+
+            }
+        }
+        .bottomBox {
+            .snsBox {
+
+            }
+            .copyrightBox {
+
+            }
+            .pageTopbox {
+                
+            }
+        }
     }
+}
+
+@media screen and (max-width: 1024px) {
 }
